@@ -1,0 +1,145 @@
+
+.home{
+    background-image: url(../../../assets/images/home.webp);
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    object-fit: cover;
+}
+.overlay{
+    background-color: rgba(94, 92, 92, 0.725);
+    width: 100%;
+    height: 100%;
+}
+.main-p{
+    text-align:center;
+    font-size:48px;
+    color:#fff
+}
+.subTitle{
+    font-family:'open-sans', Helvetica, Arial, sans-serif ;
+    text-align: center;
+    font-weight: bold;
+    font-size: 183%;
+    color: #fff!important;
+    
+}
+.card:hover{
+transform: scale(1.05);
+transition: all .25s ease-in-out;
+.card-body{
+    background-color:#fff ;
+}
+}
+h3{
+    color:#198CC4;
+}
+.card-body{
+    background-color: #f7f6f6;
+}
+.card-body p{
+    font-size: 18px;
+}
+.intro-p-1{
+font-size: 15px;
+}
+.intro h2{
+font-size: 30px;
+}
+.intro-p-2{
+font-size: 18px;
+color: #8d8c8c;
+}
+.intro span{
+    color: #198CC4;
+}
+.team img{
+    width: 100%;
+    size: 100%;
+}
+h4{
+    color: #474747;
+}
+
+.solar{
+    background-image: url(../../../assets/images/solar.webp);
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
+    background-attachment: fixed;
+ 
+}
+.sub-text{
+    color:#fff;
+    p{
+        font-size:29px
+    }
+}
+.cable img{
+    width: 100% !important;
+    height: 10% !important;
+  
+}
+ul{
+    list-style: none;
+    li{
+        font-size:20px;
+        margin-bottom: 20px;
+    }
+}
+.fa-check{
+    font-size:28px;
+    color:#198CC4;
+}
+.mainSpan{
+    color: #198CC4;
+}
+.sideP{
+    font-size:20px
+}
+// }
+// h1{
+//     color:#fff
+// }
+
+// .card{
+//     background-color: #212226;
+//     color: #fff;
+// }
+// .card:hover{
+//     background-color: #fff;
+//     color: #212226;
+//     .circle-main{
+//         background-color:#212226;
+//     }
+// }
+// .card-title{
+//     font-size: 18px;
+// }
+
+// .circle{
+ 
+//     display: inline-block;
+//     height: 50px;
+//     width: 50px;
+//     line-height: 55px;
+//     border-radius: 50%;
+//     text-align: center;
+//     transition: 0.3s;
+//     color: #fff;
+   
+// }
+// .circle-main:hover{
+//     background-color:#212226;
+// }
+// .circle-main{
+//     background-color:#DE2126;
+// }
+// .mainI{
+//     color: #212226;
+// }
+// .main{
+//     color:#DE2126;
+// }

@@ -1,0 +1,36 @@
+
+.breadcrump{
+    background-image: url(../../../assets/images/contactMe.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     height: 60vh;
+    background-attachment: fixed;
+}
+.overlay{
+    background-color: rgba(94, 92, 92, 0.725);
+    width: 100%;
+    height: 100%;
+}
+li{
+    color: #fff !important;
+    font-size: 20px;
+} h2{
+    color: #198CC4;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.breadcrumb-item + .breadcrumb-item::before {
+    float: left;
+    padding-right: var(--bs-breadcrumb-item-padding-x);
+    color: #fff;
+    content: var(--bs-breadcrumb-divider, "/") 
+}
+
+.active{
+    color: #198CC4 !important;
+}

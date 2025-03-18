@@ -11,6 +11,13 @@ import { ServiceDetailComponent } from './components/service-detail/service-deta
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { BreadcrumbComponent } from './components/breadcrumb/breadcrumb.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
+import { ElektroanlagenGewerbeComponent } from './components/elektroanlagen-gewerbe/elektroanlagen-gewerbe.component';
+import { SolarComponent } from './components/solar/solar.component';
+import { PhotovolticComponent } from './components/photovoltic/photovoltic.component';
+import { ElektromobilComponent } from './components/elektromobil/elektromobil.component';
+import { InformationenAnfordernComponent } from './components/informationen-anfordern/informationen-anfordern.component';
 
 @NgModule({
   declarations: [
@@ -22,11 +29,18 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     ServiceDetailComponent,
     ProjectsComponent,
     ContactUsComponent,
-    NavbarComponent
+    NavbarComponent,
+    BreadcrumbComponent,
+    ElektroanlagenGewerbeComponent,
+    SolarComponent,
+    PhotovolticComponent,
+    ElektromobilComponent,
+    InformationenAnfordernComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

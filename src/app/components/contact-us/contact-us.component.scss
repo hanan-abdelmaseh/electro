@@ -1,0 +1,77 @@
+
+
+
+.mainI{
+    font-size: 40px;
+    color: #198CC4;
+}
+ul li{
+    list-style-type: none;
+    font-size: 20px;
+}
+.phoneNumber{
+font-size: 30px;
+color: #198CC4;}
+
+
+.team img{
+    width: 100%;
+    height: 100%;
+}
+.icon{
+    font-size:20px;
+    color:#198CC4 ;
+}
+.mainItem{
+    background-color: #198CC4;
+    color:#fff
+}
+.mainItem2{
+    background-color: #EEEEEE;
+    button{
+        background-color:  #292C38;
+        padding: 10px 40px;
+        font-size: 20px;
+        color: #198CC4;
+    }
+    button:hover{
+        color:#fff;
+
+    background-color: #198CC4;
+    }
+}
+.classicBtn{
+    color:#198CC4;
+
+    background-color: #fff;
+}
+.classicBtn:hover{
+    color:#198CC4;
+   
+    background-color: #292C38 !important;
+}
+.MainBtn{
+    background-color: #198CC4;
+    color:#fff
+}
+
+
+.MainBtn:hover{
+  
+    color:#198CC4;
+   
+        background-color: #292C38 !important;
+}
+.conatct{
+    background-image: url(../../../assets/images/contactUS.jpg);
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+}
+.overlay{
+    background-color: rgba(94, 92, 92, 0.725);
+    width: 100%;
+    height: 100%;
+}

@@ -1,11 +1,35 @@
-// img{
-//     width: 70px;
-//     height: 70px;
-// }
+img{
+    width: 45%;
+    height: 50%;
+}
 .nav-link{
-    font-size: 18px;
+    font-size: 22px;
+   // color:#fff
+}
+.nav-link:hover{
+  border-bottom: 1px solid  #198CC4;
+  color: #198CC4;
 }
 
 .fa-globe{
     font-size: 20px;
+    cursor: pointer;
+}
+.navbar{
+    z-index: 1000;
+   // background-color: #bbaeae !important;
+}
+
+.active{
+    color:#198CC4 !important;
+    border-bottom: 1px solid  #198CC4;
+}
+.main{
+    color:#198CC4 !important
+}
+li{
+    list-style-type: none;
+}
+.dropdown-item:hover{
+    color:#198CC4 !important
 }
